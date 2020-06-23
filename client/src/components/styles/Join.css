@@ -1,0 +1,88 @@
+html,
+body {
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+/* Reset default focus outline */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
+
+/*  f3e9d2 */
+
+#root {
+	height: 100vh;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	height: 100vh;
+	align-items: center;
+	background-color: #f3e9d2;
+}
+
+.loginCard {
+	background: white;
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 1rem;
+	min-width: 20rem;
+}
+
+.joinInput {
+	border-radius: 5px;
+	padding: 15px;
+	width: 100%;
+	border: 2px solid #ddd;
+}
+
+.joinInput:focus {
+	border: 2px solid #2a9d8f;
+}
+
+.heading {
+	color: #333;
+	font-size: 2.5em;
+}
+
+.button {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #2a9d8f;
+	padding: 20px;
+	border-radius: 5px;
+	display: inline-block;
+	border: 2px solid transparent;
+	width: 100%;
+	cursor: pointer;
+}
+
+.mt-20 {
+	margin-top: 20px;
+}
+
+/* @media (min-width: 320px) and (max-width: 480px) {
+	.container {
+		height: 100%;
+	}
+
+	.loginCard {
+		width: 90%;
+	}
+}
+*/
+/* button:focus {
+	outline: 0;
+} */
